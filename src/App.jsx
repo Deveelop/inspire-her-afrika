@@ -16,9 +16,9 @@ function App() {
         <Route exact path="/about" element={ <About/> }/>
         <Route exact path="/mentorship-program" element={ <MentorshipPro/> }/>
        </Routes>
+       <Footer/>
        </BrowserRouter>
        
-       <Footer/>
     </>
   );
 }
