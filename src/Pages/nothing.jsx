@@ -1,3 +1,124 @@
+<div className=" flex-col justify-start items-center gap-[52px] md:inline-flex">
+<div className="flex-col justify-start items-start gap-8 flex">
+    <h1 className="text-justify text-yellow-950 md:text-[64px] font-bold font-['Athiti'] leading-[45.60px]">What to Expect</h1>
+    <div className=" w-[80%] md:w-[326px] h-[0px] border-4 border-yellow-950" />
+</div>
+<div className=" w-[100%]">
+    <div className=" grid grid-cols-2">
+        <div>
+        <img className="w-[482px] h-[373px] rounded-[10px]" src="https://via.placeholder.com/482x373" />
+        </div>
+        <div className=" col-span-2">
+            <div className=" md:w-[662px] text-justify"><h5 className="text-yellow-950 md:text-[40px] font-semibold font-['Athiti'] leading-[45.60px]">Structured Curriculum:<br/></h5>
+            <p className="text-yellow-950 md:text-2xl font-normal font-['Athiti'] leading-[38px]">The program employs a carefully curated curriculum, addressing critical areas such as goal-setting, personal branding, career development, and project execution. This ensures a comprehensive and impactful learning experience.</p>
+            </div>
+        </div>
+    </div>
+    <div className="">
+        <div className="w-[640px] h-[236px] text-justify"><span className="text-yellow-950 text-[40px] font-semibold font-['Athiti'] leading-[45.60px]">Active learning:<br/></span><span className="text-yellow-950 text-2xl font-normal font-['Athiti'] leading-[38px]">Mentees are not passive learners but active participants in their growth. Each month, mentors and mentees will receive briefs outlining their focus for the month and providing resources to guide the completion of tasks tailored to enhance mentee’s skills, confidence, and problem-solving abilities.</span></div>
+        <img className="w-[437px] h-[328px] rounded-[10px]" src="https://via.placeholder.com/437x328" />
+    </div>
+    <div className="">
+        <img className="w-[547.53px] h-[373px] rounded-[10px]" src="https://via.placeholder.com/548x373" />
+        <div className="w-[579px] text-justify"><span className="text-yellow-950 text-[40px] font-semibold font-['Athiti'] leading-[45.60px]">Reflection and Evaluation:<br/></span><span className="text-yellow-950 text-2xl font-normal font-['Athiti'] leading-[38px]">The program places a strong emphasis on self-reflection. Through weekly meetings, the accompanied log submissions and surveys, mentees (and the program team) are able to track progress, receive feedback, and refine their strategies.</span></div>
+    </div>
+    <div className="">
+        <div className="w-[593px]"><span className="text-yellow-950 text-[40px] font-semibold font-['Athiti'] leading-[45.60px]">Community Engagement:<br/></span><span className="text-yellow-950 text-2xl font-normal font-['Athiti'] leading-[38px]">Beyond individual growth, the program encourages mentees to actively participate in community-oriented projects, fostering a sense of social responsibility and leadership.</span></div>
+        <img className="w-[543px] h-[350px] rounded-[10px]" src="https://via.placeholder.com/543x350" />
+    </div>
+    <div className="">
+        <img className="w-[539px] h-[373px] rounded-[10px]" src="https://via.placeholder.com/539x373" />
+        <div className="w-[564px] text-justify"><span className="text-yellow-950 text-[40px] font-semibold font-['Athiti'] leading-[45.60px]">Networking Opportunities:<br/></span><span className="text-yellow-950 text-2xl font-normal font-['Athiti'] leading-[38px]">The inclusion of informational interviews, mentor consultations and virtual mastery sessions facilitated by subject experts provides mentees with networking opportunities that extend beyond their immediate mentorship circle.</span></div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="w-[1440px] left-0 top-0 absolute justify-center items-center inline-flex">
+<div className="w-[1440px] h-[1021px] relative bg-gradient-to-r from-orange-400 to-white flex-col justify-start items-start flex">
+
+    <div className="w-[872px] h-[137px] flex-col justify-start items-start gap-10 inline-flex">
+        <div className="justify-start items-start gap-[83px] inline-flex">
+           
+        </div>
+       
+    </div>
+    <div className="w-[189px] h-12 px-[104px] py-[19px] bg-white rounded-[10px] justify-center items-center gap-2 inline-flex">
+        <div className="text-justify text-yellow-950 text-lg font-bold font-['Athiti'] leading-[37.31px]">Join Us</div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div className="w-[1440px] h-[3675px] relative bg-yellow-50">
     <div className="w-[952px] h-[495px] left-[1178px] top-[71px] absolute" />
     <div className="w-[1440px] h-[1024px] left-0 top-0 absolute">

@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to='/about' className=" h-[38px] text-justify text-amber-700 text-lg font-light font-['Athiti'] leading-[37.31px]">About Us</Link>
             </div>
             <div className=" h-[38px] justify-end items-center flex">
-                <Link to='/mentorship-program' className=" h-[38px] text-justify text-amber-700 text-lg font-light font-['Athiti'] leading-[37.31px]">Mentorship Program</Link>
+                <Link to='/mentorship' className=" h-[38px] text-justify text-amber-700 text-lg font-light font-['Athiti'] leading-[37.31px]">Mentorship Program</Link>
             </div>
             <div className=" h-[38px] justify-end items-center flex">
                 <Link to='/resources' className=" h-[38px] text-justify text-amber-700 text-lg font-light font-['Athiti'] leading-[37.31px]">Resources</Link>
