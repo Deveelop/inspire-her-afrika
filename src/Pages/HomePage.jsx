@@ -1,17 +1,16 @@
-import React from 'react'
+
 
 const Home = () => {
   return (
-    <div className='bg-orange-50'>
+    <>
+   
+    <div className='bg-orange-50 w-[100%]'>
 
     
     
-     <div className=' '>
+     
       
-       <div className=' mb-20 h-screen w-full 
-         p-4 md:p-72 relative
-        '>
-          <div className='absolute inset-0 bg-[url("groupshot.png")] bg-cover bg-center'/>
+       <div className=' mb-20  h-[400px] md:w-full p-4 md:p-72 relative inset-0 bg-[url("groupshot.png")] md:bg-cover bg-contain bg-no-repeat bg-center'>
           <div className=' absolute inset-0 bg-gradient-to-r from-[#D6A530] via-[#D6AD4BD7]  to-transparent opacity-90 w-full' />
         <div className=' absolute top-60 flex justify-center'>
           <div className=' grid gap-3 '>
@@ -24,7 +23,7 @@ const Home = () => {
          </div>
          </div>
         
-        <div className=' w-[80%] m-auto flex flex-col justify-center'>
+        <div className=' w-[75%] m-auto flex flex-col justify-center'>
          <div className=" mb-20  backdrop-blur-sm flex-col justify-center items-center gap-10 inline-flex">
     <div className="text-justify text-yellow-950 md:text-xl font-bold border-b-4 border-yellow-950">
       <h2>Who we are</h2>
@@ -81,10 +80,11 @@ const Home = () => {
 
 
        
- </div>
+ 
 
 
    </div>
+   </>
   )
 } 
 
