@@ -8,7 +8,7 @@ const Header = () => {
   return (
  
 
-<header  className="w-[100%]  md:pl-[25px] fixed z-[100]  pt-1 pb-[21px] bg-neutral-100 justify-evenly items-center md:gap-[216px] inline-flex">
+<header  className="w-[100%]  md:pl-[25px] fixed z-[100]  pt-1 pb-[21px] bg-neutral-100 justify-between items-center md:gap-[216px]  flex">
     
     <img className=" text-amber-700 md:w-[194px] h-[71px] relative" src="/logo (1).png" />
     <FaBars className=' text-black hidden ' color='black' size={35}/>
