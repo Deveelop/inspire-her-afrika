@@ -1,17 +1,22 @@
-import React from 'react';
-import Logo from './Logo';
-import { BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
+
+import { BsInstagram, BsLinkedin, BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
   return (
     <footer className='inset-0 bg-gradient-to-t from-[#D6A530] via-[#D6AD4BD7]  to-transparent opacity-90 w-full '>
       
 <div  className=" md:flex justify-evenly  text-white md:p-8 p-4">
-      <div className="flex flex-col py-2 w-[300px]">
+      <div className="flex flex-col py-2 md:w-[500px]">
             <img src='/logo.png' alt='all' />
             <p className=" text-yellow-950">
             We are committed to raising the next generation of female African leaders by delivering a comprehensive mentorship program designed to provide personalised guidance and support to African women who are seeking to improve their skills, knowledge, and career prospects.
             </p>
+            <div className='flex gap-3 my-3'>
+              <a href='#'><BsFacebook className=' w-[24px] h-[24px]  text-[#36200F]'/></a>
+              <a href='#'><BsInstagram  className=' w-[24px] h-[24px]  text-[#36200F]'/></a>
+              <a href='#'><BsTwitter  className=' w-[24px] h-[24px]  text-[#36200F]'/></a>
+              <a href='#'><BsLinkedin  className=' w-[24px] h-[24px]  text-[#36200F]'/></a>
+            </div>
       </div>
 
       <div className=" md:flex  gap-10 ">

@@ -8,7 +8,7 @@ const Header = () => {
   return (
  
 
-    <header className=' bg-neutral-100 bg-fixed w-full fixed z-50'>
+    <header className=' bg-neutral-100 fixed w-full  z-50'>
       
     <div className='  items-center flex md:justify-evenly justify-between p-4  ml- mr-10'>
     <div>
@@ -22,11 +22,10 @@ const Header = () => {
       <Link to='/resources' className=' font-semibold text-amber-700'>Resources</Link>
       <Link to='/contact' className=' font-semibold text-amber-700'>Contact Us</Link>
     </nav>
-    <div className='flex gap-8'>
-    </div>
-    <nav className="w-full flex flex-wrap justify-between place-items-center p-4 pt-3 md:hidden text-black">
+   
+    <nav className=" justify-end w-full flex flex-wrap  place-items-center p-4 pt-3 md:hidden text-black">
           <button onClick={handlenav} className='md:hidden hover:text-[--col] zi-10'>
-              { !nav ? <FaTimes/> : <FaBars /> }
+              { !nav ? "": <FaBars /> }
           </button>
       </nav>
     </div>
