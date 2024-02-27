@@ -2,7 +2,7 @@ import HeroMentorship from "../Components/HeroMentorship";
 
 function Mentorship() {
   return (
-    <div className=' font-Athiti '>
+    <div className=' '>
     <div className="w-[100%] bg-yellow-50 ">
 
     <HeroMentorship/>
