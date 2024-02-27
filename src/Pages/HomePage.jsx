@@ -1,4 +1,4 @@
-
+import HeroHome from "./HeroHome";
 
 const Home = () => {
   return (
@@ -8,21 +8,8 @@ const Home = () => {
 
     
     
+     <HeroHome/>
      
-      
-       <div className=' mb-20  h-[400px] md:w-full p-4 md:p-72 relative '>
-        <div className=" absolute inset-0 bg-[url('groupshot.png')] md:bg-cover bg-contain bg-no-repeat bg-center bg-opacity-90"/>
-          <div className=' absolute inset-0 bg-gradient-to-r from-[#D6A530] via-[#D6AD4BD7]  to-transparent opacity-70 md:opacity-90 w-full' />
-        <div className=' absolute top-60 flex justify-center'>
-          <div className=' grid gap-3 '>
-        <h1 className='text-[#361F0F] text-2xl font-Athiti md:text-6xl'>Inspire Her Afrika</h1>
-       <p className='text-white font-bold  text-xl '>Mentorship. Support. Growth.</p>
-      <div className=''>
-        <button className='bg-text-white font-semibold bg-white p-3 w-32 rounded-xl' >Learn More</button>
-         </div>
-         </div>
-         </div>
-         </div>
         
         <div className=' w-[75%] m-auto flex flex-col justify-center'>
          <div className=" mb-20  backdrop-blur-sm flex-col justify-center items-center gap-10 inline-flex">
