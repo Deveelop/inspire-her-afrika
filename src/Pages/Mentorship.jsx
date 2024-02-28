@@ -11,7 +11,7 @@ function Mentorship() {
     <div className="  items-center flex flex-col justify-center leading-9  ">
         <div className=" mb-2">
         <h1 className=" text-center font-bold md:text-xl text-lg">What we Offer</h1>
-        <div className=" w-[112px] mt-1 border-[3px] border-[#36200F] " />
+        <div className=" w-[90px] md:w-[112px] mt-1 border-[3px] border-[#36200F] " />
         </div>
 
         <div className=" text-[#36200F]  text-center md:text-sm font-normal;
@@ -23,7 +23,7 @@ function Mentorship() {
         <div className=" mt-8 items-center flex flex-col justify-center leading-9">
             <div className=" mb-2">
             <h1 className=" text-center font-bold md:text-xl text-lg">What to Expect</h1>
-            <div className="w-[112px] mt-1 border-[3px] border-[#36200F] " />
+            <div className=" w-[90px] md:w-[112px] mt-1 border-[3px] border-[#36200F] " />
             </div>
         </div>
         <div className=" ">
@@ -68,7 +68,7 @@ function Mentorship() {
             </div>
             <div className="grid md:grid-cols-2 items-center gap-10 mb-20">
                 <div className=" md:ml-20">
-                    <h5 className="md:text-2xl text-xl  font-semibold mb-2">Community Engagement:<br/></h5>
+                    <h5 className="md:text-2xl text-xl whitespace-nowrap  font-semibold mb-2">Community Engagement:<br/></h5>
                     <p className=" md:text-sm text-xs font-normal md:leading-10">Beyond individual growth, the program encourages mentees to actively participate in community-oriented projects, fostering a sense of social responsibility and leadership.</p>
                     </div>
                     <div>

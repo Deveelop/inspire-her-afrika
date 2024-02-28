@@ -13,8 +13,9 @@ const Home = () => {
         
         <div className=' w-[75%] m-auto flex flex-col justify-center'>
          <div className=" mb-20  backdrop-blur-sm flex-col justify-center items-center gap-10 inline-flex">
-    <div className="text-justify text-yellow-950 md:text-xl font-bold border-b-4 border-yellow-950">
+    <div className="text-justify flex flex-col justify-center items-center text-yellow-950 md:text-xl font-bold">
       <h2>Who we are</h2>
+      <div className=" w-[50px] md:w-[70px] mt-1 border-[3px] border-[#36200F] " />
     </div>
  
     <div className=" -mt-5 p-4 bg-white rounded-[20px] shadow-md justify-center items-center gap-2 inline-flex">
