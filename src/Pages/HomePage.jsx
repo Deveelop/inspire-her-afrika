@@ -32,32 +32,34 @@ const Home = () => {
   <p className=" p-4 text-yellow-950 md:text-lg ">Connecting Women To create a safe community for African women to connect, learn, grow and encourage themselves to achieve their full potential.</p>
   </div>
 </div>
-</div>
-
 
 <div className=' mb-20 h-[400px]  md:w-full p-4 md:p-20 relative '>
     <div className=" absolute inset-0 bg-[url('/unsplash.png')] bg-cover bg-no-repeat bg-center bg-opacity-90 "/>
       <div className=' absolute inset-0 bg-gradient-to-r from-[#000000] via-[#161616]  to-transparent opacity-90 w-full' />
     <div className='absolute flex justify-center'>
       <div className='  '>
-        <div className=" w-[100%] md:w-[342.01px] border-b-4 border-white">
-      <p href="#" className=" text-neutral-100 text-xl font-bold leading-[62px] "> African Countries</p>
-        </div>
-        <div className=" w-[100%] md:w-[342.01px] border-b-4 border-white">
-      <p href="#" className=" text-neutral-100 text-xl font-bold leading-[62px] "> 28 African Women</p>
-        </div>
-        <div className=" w-[100%] md:w-[342.01px] border-b-4 border-white">
-      <p href="#" className=" text-neutral-100 text-xl font-bold leading-[62px] ">6 Virtual Mastery Sessions</p>
-        </div>
-        <div className=" w-[100%] md:w-[342.01px] border-b-4 border-white">
-      <p href="#" className=" text-neutral-100 text-xl font-bold leading-[62px] ">And lots more</p>
-        </div>
+       
+      <p href="#" className=" text-neutral-100 md:text-xl font-bold leading-[62px] md:leading-[62px] "> African Countries</p>
+      <div className=" w-[70%] md:w-[342.01px] border-b-4 border-white"/>
+        
+      <p href="#" className=" text-neutral-100 md:text-xl font-bold leading-[62px] md:leading-[62px] "> 28 African Women</p>
+      <div className=" w-[70%] md:w-[342.01px] border-b-4 border-white"/>
+        
+      <p href="#" className=" text-neutral-100 md:text-xl font-bold leading-[62px] md:leading-[62px] ">6 Virtual Mastery Sessions</p>
+      <div className=" w-[100%] md:w-[342.01px] border-b-4 border-white"/>
+        
+      <p href="#" className=" text-neutral-100 md:text-xl font-bold leading-[62px] md:leading-[62px] ">And lots more</p>
+      <div className=" w-[70%] md:w-[342.01px] border-b-4 border-white"/>
       
       
  
      </div>
      </div>
      </div>
+</div>
+
+
+
 
 
 
