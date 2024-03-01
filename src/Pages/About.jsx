@@ -1,55 +1,108 @@
 
-
+import HeroAbout from "./HeroAbout";
 const About = () => {
   return (
-   <>
-    <div className='font-Athiti mt-40'>
-      
-      <div className=' bg-[url("/groupy.png")] h-2/3 w-full bg-cover
-       bg-center p-4 md:p-72 relative
-       '>
-       <div className=' flex justify-center'>
-         <div className=' grid gap-3 text-center'>
-       <h1 className='text-white text-xl md:text-6xl'>Inspire Her Afrika</h1>
-       <p className='text-white  text-sm '>Mentorship Support Growth</p>
-       <div className=''>
-       <button className='bg-text-white font-semibold bg-white p-3 w-32 rounded-xl' >About Us</button>
-       </div>
-       </div>
-       </div>
-       </div>
-   </div>
-
-    <div className="bg-[#f7ecaf] text-[#36200F]" id="about">
-    <div className="grid md:grid-cols-1 grid-cols-1 col-span-3 md:col-span-1 py-2">
-     <div className=" md:justify-center grid space-y-6 text-center p-4">
-        <h1 className="font-Athiti text-4xl underline">Who we are</h1>
-       
-        <p className=" w-full font-semibold"><span className=" font-Athiti text-[#36200F] text-xl">Inspire Her Africa</span> is an annual six-month comprehensive mentorship program designed to provide personalized guidance and support to African women who are seeking to improve their skills, knowledge, and career prospects.</p>
-     
-     </div>
-     </div>
-     <div className=" p-8">
-     <div className=" bg-white rounded-2xl border-l-[20px] border-l-red-600">
-     <div className=" text-center p-8">
-        <h1  className="font-Athiti text-xl ">Our vision</h1>
-        <p>To provide thorough mentorship, guidance, and networking opportunities that will inspire African women to pursue their passions, develop their skills, and become leaders in their professional spaces. We aim to create a safe community for African women to connect, learn, grow and encourage themselves to achieve their full potential. We aspire to be the leading mentorship group for African women looking to advance professionally.</p>
-     </div>
-     </div>
-     </div>
-     <div className=" p-8">
-     <div className=" bg-white rounded-2xl border-l-[20px] border-l-blue-600">
-        <div className=" text-center p-8">
-            <h1 className=" font-Athiti text-xl">Our mission</h1>
-            <p>Connecting Women To create a safe community for African women to connect, learn, grow and encourage themselves to achieve their full potential.</p>
+    <div  className="w-[100%] bg-yellow-50 ">
+    <HeroAbout/>
+    <div className=' pb-8 m-auto w-[75%] '>
+    <div className="  items-center flex flex-col justify-center ">
+        <div className=" mb-5">
+        <h1 className=" text-center font-bold md:text-xl text-lg">Executive Members</h1>
+        <div className=" w-[90px] md:w-[112px] mt-1 border-[3px] border-[#36200F] " />
         </div>
-     </div>
-     </div>
-     <div className=" text-center">
-     <h1 className="font-Athiti text-4xl underline">Meet Our Leaders</h1>
-    </div>
-    </div>
-    </>
+
+       
+        <div className=" md:flex  justify-between gap-6">
+        <div className=" md:w-[369px] md:h-[384px] bg-white border-t-8 border-[#EB643F] shadow-sm rounded-md shadow-gray-500">
+          <div className="p-8 font-semibold flex justify-center flex-col gap-4 items-center ">
+            <img className=" rounded-md" src="/Polygon 1.png" alt="dhsld"/>
+            <div className="space-y-1 text-center">
+                <h1 className=" text-lg text-[#36200F] font-bold">Chidinma Oli </h1>
+                <p className=" text-xs text-yellow-950">Co-Founder</p>
+                <p className=" text-yellow-950  text-xs">Chief Executive Director</p>
+            </div>
+            <div className=" flex justify-between gap-3 mt-10">
+             <a href="#"> <img src="/socials1.png" alt="uidgofiuh"/> </a>
+            <a href="#"><img src="/socials2.png" alt="uidgofiuh"/></a>
+            <a href="3" > <img src="/socials3.png" alt="uidgofiuh"/></a>
+            <a href="#">  <img src="/socials4.png" alt="uidgofiuh"/></a>
+            </div>
+            </div>
+         </div>
+       
+         <div className="  w-[369px] h-[384px] bg-white border-t-8 border-[#00E9F8] shadow-sm rounded-md shadow-gray-500">
+          <div className="p-8 font-semibold flex justify-center flex-col gap-4 items-center ">
+            <img className=" rounded-md" src="/Polygon 2.png" alt="dhsld"/>
+            <div className="space-y-1 text-center">
+                <h1 className=" text-lg text-[#36200F] font-bold">Ojonugwa Abubakar </h1>
+                <p className=" text-xs text-yellow-950">Co-Founder</p>
+                <p className=" text-yellow-950  text-xs">Programme Cordinator</p>
+            </div>
+            <div className=" flex justify-between gap-3 mt-10">
+             <a href="#"> <img src="/socials1.png" alt="uidgofiuh"/> </a>
+            <a href="#"><img src="/socials2.png" alt="uidgofiuh"/></a>
+            <a href="3" > <img src="/socials3.png" alt="uidgofiuh"/></a>
+            <a href="#">  <img src="/socials4.png" alt="uidgofiuh"/></a>
+            </div>
+            </div>
+         </div>
+         </div>
+         <div className=" md:flex justify-between gap-6 mt-10 mb-10">
+         <div className="  w-[369px] h-[384px] bg-white border-t-8 border-[#964C9A] shadow-sm rounded-md shadow-gray-500">
+          <div className="p-8 font-semibold flex justify-center flex-col gap-4 items-center ">
+            <img className=" rounded-md" src="/firstslide.png" alt="dhsld"/>
+            <div className="space-y-1 text-center">
+                <h1 className=" text-lg text-[#36200F] font-bold">Oluwadamilola Oladipupo</h1>
+                <p className=" text-xs text-yellow-950">Project Designer</p>
+              
+            </div>
+            <div className=" flex justify-between gap-3 mt-10">
+             <a href="#"> <img src="/socials1.png" alt="uidgofiuh"/> </a>
+            <a href="#"><img src="/socials2.png" alt="uidgofiuh"/></a>
+            <a href="3" > <img src="/socials3.png" alt="uidgofiuh"/></a>
+            <a href="#">  <img src="/socials4.png" alt="uidgofiuh"/></a>
+            </div>
+            </div>
+         </div>
+
+         <div className="  w-[369px] h-[384px] bg-white border-t-8 border-[#3F46EB] shadow-sm rounded-md shadow-gray-500">
+          <div className="p-8 font-semibold flex justify-center flex-col gap-4 items-center ">
+            <img className=" rounded-md" src="/secondslide.png" alt="dhsld"/>
+            <div className="space-y-1 text-center">
+                <h1 className=" text-lg text-[#36200F] font-bold">Bolanle Onilogbo </h1>
+                <p className=" text-xs text-yellow-950">Commincation Manager</p>
+               
+            </div>
+            <div className=" flex justify-between gap-3 mt-10">
+             <a href="#"> <img src="/socials1.png" alt="uidgofiuh"/> </a>
+            <a href="#"><img src="/socials2.png" alt="uidgofiuh"/></a>
+            <a href="3" > <img src="/socials3.png" alt="uidgofiuh"/></a>
+            <a href="#">  <img src="/socials4.png" alt="uidgofiuh"/></a>
+            </div>
+            </div>
+         </div>
+
+         <div className="  w-[369px] h-[384px] bg-white border-t-8 border-[#4C9A54] shadow-sm rounded-md shadow-gray-500">
+          <div className="p-8 font-semibold flex justify-center flex-col gap-4 items-center ">
+            <img className=" rounded-md" src="/thirdslide.png" alt="dhsld"/>
+            <div className="space-y-1 text-center">
+                <h1 className=" text-lg text-[#36200F] font-bold">Adebusola Adedeye </h1>
+                <p className=" text-xs text-yellow-950">Project Design Assistant,</p>
+               
+            </div>
+            <div className=" flex justify-between gap-3 mt-10">
+             <a href="#"> <img src="/socials1.png" alt="uidgofiuh"/> </a>
+            <a href="#"><img src="/socials2.png" alt="uidgofiuh"/></a>
+            <a href="3" > <img src="/socials3.png" alt="uidgofiuh"/></a>
+            <a href="#">  <img src="/socials4.png" alt="uidgofiuh"/></a>
+            </div>
+            </div>
+         </div>
+
+         </div>
+        </div>
+        </div>
+        </div>
   )
 }
 
